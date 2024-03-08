@@ -1,0 +1,37 @@
+.mysertif {
+    color:white;
+    padding: 40px 5%;
+    height: 450px;
+}
+.mysertif-title span {
+    color:#0ef;
+}
+.mysertif-title {
+    margin-bottom: 10px;
+}
+
+.mysertif-image {  
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.mysertif-image-container {
+    /* margin-top: 10px; */
+    
+}
+
+.mysertif-image img {
+    border-radius: 3%;
+    background-color: #0ef;
+    box-shadow: 0 0 1rem #0ef;
+    object-fit:cover;
+    /* margin-top: 20px; */
+}
+
+.mysertif-description {
+    display: flex;
+    gap: 10rem;
+    padding-block: 4rem;
+}

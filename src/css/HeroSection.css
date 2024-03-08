@@ -1,0 +1,66 @@
+.hero-section {
+    display:flex;
+    padding: 5% 10%;
+    color:white;
+}
+
+.hero-section-text {
+    display:flex;
+    flex-direction: column;
+}
+.hero-section-text h1{
+    /* margin-bottom: 10px; */
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+.hero-section-text h2{
+    margin-top: -20px;
+    font-size: 80px;
+    letter-spacing: 1px;
+    background-color:transparent;
+}
+.hero-section-text h3{
+    margin-top: -20px;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+.hero-section-text h3 span{
+    color: #0ef;
+}
+
+.hero-section-icon{
+    display:flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.icon {
+    margin-top: 20px;
+    padding:10px 15px;
+    color: #0ef;
+    background-color:transparent;
+    border: 2px solid #0ef;
+    border-radius:50px;
+}
+
+.icon:hover {
+    color: black;
+    background-color: #0ef;
+    border: 2px solid #0ef;
+    border-radius: 50px;
+}
+
+.btnContact {
+    display: inline-block;
+    border-radius: 1rem; 
+    background: #0ef;
+    font-size: 1rem;
+    color: white;
+    padding: 20px;
+    margin: 30px 5px;
+    width: 50%;
+    text-align:center;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 0 1rem #0ef;
+}

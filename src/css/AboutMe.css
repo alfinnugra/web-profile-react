@@ -1,0 +1,15 @@
+.title {
+    height: 200px;
+    background-color: #323946;
+    color: white;
+    padding: 40px 5%;
+}
+
+.title span {
+    color: #0ef; 
+}
+
+.title p {
+    font-size: 1.6rem;
+    font-weight: 600;
+}

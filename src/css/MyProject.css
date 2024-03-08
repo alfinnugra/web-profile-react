@@ -1,0 +1,71 @@
+.myproject-container {
+    /* display:flex; */
+    position:relative;
+    background-color: #323946;
+    color: white;
+}
+
+.myproject-title {
+    padding: 40px 5%;
+}
+
+.myproject-title span{
+    color: #0ef;
+}
+
+.myproject-box {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.myproject-image{
+    position: relative;
+    width: 50%;
+    width: 350px;
+    border: 1px solid white;
+    margin: 20px;
+    border-radius: 3%;
+    box-shadow: 0 0 1rem #0ef;
+    margin-left: 70px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.myproject-image img { 
+    width: 350px;
+    padding: 7px;
+}
+
+.overlay {
+    display:flex;
+    justify-content:center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #0ef;
+    opacity: 50%;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    box-shadow: 0 0 1rem #0ef;
+  }
+  
+  .myproject-image:hover .overlay {
+    height: 80%;
+  }
+
+  
+  .overlay a {
+    color:black;
+    opacity: 100%;
+  }
+  .overlay a:hover {
+    color:white;
+    opacity: 100%;
+  }
